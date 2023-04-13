@@ -1,0 +1,31 @@
+:host(){
+    --yellow:#f9ba49;
+    --dark-blue:#0b2451;
+    --font-16:16px;
+    --font-12:12px;
+    --font-24:24px
+}
+
+.container{
+    padding: var(--font-16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.custom-card{
+    padding: var(--font-16);
+    max-width: 520px;
+    background: var(--dark-blue);
+    border-radius: 25px;
+    min-width: 370px;
+}
+
+.custom-button,.custom-button:hover,.custom-button:active{
+    background: var(--yellow);
+    color: var(--dark-blue);
+    padding: var(--font-12);
+    font-size: var(--font-24);
+    margin-top: var(--font-12);
+}
