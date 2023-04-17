@@ -5,7 +5,12 @@
     --font-12:12px;
     --font-24:24px
 }
-
+.currency-app{
+    background:url(/sfsites/c/resource/currencyConverterAssets/currencyConverterAssets/currencyAppBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
 .container{
     padding: var(--font-16);
     display: flex;
@@ -32,4 +37,9 @@
 
 .baseLine{
     align-items: baseline;
+}
+
+img{
+    display: block;
+    margin: auto;
 }
