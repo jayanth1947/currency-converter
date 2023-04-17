@@ -1,6 +1,8 @@
 :host(){
     --yellow:#f9ba49;
     --dark-blue:#0b2451;
+    --light-blue:#1b96ff;
+    --orange:#fb8550;
     --font-16:16px;
     --font-12:12px;
     --font-24:24px
@@ -49,4 +51,15 @@
 img{
     display: block;
     margin: auto;
+}
+
+.result{
+    font-size: var(--font-24);
+    margin-bottom: var(--font-24);
+    font-weight: bold;
+    color: var(--light-blue);
+}
+
+.result-to{
+    color: var(--orange);
 }
