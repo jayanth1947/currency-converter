@@ -5,6 +5,13 @@
     --font-12:12px;
     --font-24:24px
 }
+.custom-icon{
+    
+    --slds-c-icon-color-background:var(--yellow);
+    --slds-c-icon-color-foreground:var(--dark-blue);
+    transform: rotate(45deg);
+
+}
 .currency-app{
     background:url(/sfsites/c/resource/currencyConverterAssets/currencyConverterAssets/currencyAppBackground.png);
     background-size: cover;
