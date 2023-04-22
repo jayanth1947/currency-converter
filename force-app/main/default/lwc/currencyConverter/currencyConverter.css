@@ -1,3 +1,4 @@
+/* This is used for the intializing the variables to the style */
 :host(){
     --yellow:#f9ba49;
     --dark-blue:#0b2451;
@@ -7,6 +8,8 @@
     --font-12:12px;
     --font-24:24px
 }
+
+/* Styling for the Icon */
 .custom-icon{
     
     --slds-c-icon-color-background:var(--yellow);
@@ -14,6 +17,8 @@
     transform: rotate(45deg);
 
 }
+
+/* Styling for the main Body */
 .currency-app{
     background:url(/sfsites/c/resource/currencyConverterAssets/currencyConverterAssets/currencyAppBackground.png);
     background-size: cover;
@@ -28,6 +33,7 @@
     min-height: 100vh;
 }
 
+/* Styling for the Card */
 .custom-card{
     padding: var(--font-16);
     max-width: 520px;
@@ -36,6 +42,7 @@
     min-width: 370px;
 }
 
+/* Styling for the button */
 .custom-button,.custom-button:hover,.custom-button:active{
     background: var(--yellow);
     color: var(--dark-blue);
@@ -48,11 +55,13 @@
     align-items: baseline;
 }
 
+/* Image Styling */
 img{
     display: block;
     margin: auto;
 }
 
+/* Styling to the Result Value */
 .result{
     font-size: var(--font-24);
     margin-bottom: var(--font-24);
