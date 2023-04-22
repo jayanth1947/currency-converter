@@ -1,18 +1,25 @@
-# Salesforce DX Project: Next Steps
+# Currency Converter Page
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+The Currency Converter App is a simple web application built with Lightning Web Components (LWC) that allows users to convert one currency to another. It utilizes the exchangerate.host API to fetch real-time exchange rates.
 
-## How Do You Plan to Deploy Your Changes?
+## Features
+- Users can enter an amount to be converted.
+- Users can select the currencies to convert from and to using a dropdown menu.
+- The app fetches real-time exchange rates from the exchangerate.host API and displays the converted amount.
+- If there is an error during the conversion process, the app displays an error message to the user.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## Technologies
+Salesforce Lightning Web Components
+HTML/CSS
+JavaScript
 
-## Configure Your Salesforce DX Project
+## API
+The component uses an external API provided by exchangerate.host to retrieve the most up-to-date exchange rates. The API is free to use and requires no authentication. The API documentation can be found at https://exchangerate.host/#/docs.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+[Demo URL](https://empathetic-goat-jgrtil-dev-ed.my.site.com/currency-converter)
 
-## Read All About It
+## Usage
+To use the Currency Converter App, simply enter an amount to be converted and select the currencies to convert from and to using the dropdown menus. Click the "Convert" button to initiate the conversion process. The app will fetch the real-time exchange rates from the exchangerate.host API and display the converted amount. If there is an error during the conversion process, the app will display an error message.
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+## Contributing
+Contributions to this project are welcome. If you find a bug or have a suggestion for an improvement, please submit a pull request or open an issue.
